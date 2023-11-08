@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".OTP">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="171dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/lang_btn"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:text="@string/manava_hakku_rakshane" />
+
+    <LinearLayout
+        android:layout_width="292dp"
+        android:layout_height="308dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/transparent_layout"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="40dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/log_in"
+            android:textColor="@color/lang_btn"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_lang_round"
+            android:drawableLeft="@drawable/phone"
+            android:ems="10"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <com.chaos.view.PinView
+            android:id="@+id/pinview"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            android:inputType="number"
+            android:itemBackground="@color/white"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            app:hideLineWhenFilled="true"
+            app:itemCount="4"
+            app:itemHeight="54dp"
+            app:itemRadius="6dp"
+            app:itemSpacing="5dp"
+            app:itemWidth="54dp"
+            app:lineColor="@color/lang_btn"
+            app:lineWidth="2dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_round"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manava Hakku Rakshane</string>
+    <string name="manava_hakku_rakshane">मानव हक्कू रक्षने</string>
+    <string name="karnataka_state_human_rights_commission">कर्नाटक राज्य मानवाधिकार आयोग</string>
+    <string name="log_in">लॉग-इन</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="login">लॉगिन</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lang_btn">#53326B</color>
+    <color name="transparent">#8AFFFFFF</color>
+    <color name="tab_bar">#75578B</color>
+    <color name="gray">#B8B6B6</color>
+    <color name="file_complaint">#598F97</color>
+    <color name="View_complaints">#899A92</color>
+    <color name="Order_my_Complaint">#CD8B13</color>
+    <color name="Our_Rights">#778107</color>
+    <color name="Published">#2DA98B</color>
+    <color name="About_KHRC">#7381CD</color>
+    <color name="NHRC">#CD7399</color>
+    <color name="KHRC_WESITE">#3A577A</color>
+    <color name="Contact">#9E5CA3</color>
+    <color name="FAQs">#8C5548</color>
+    <color name="colorFullBlack">#000000</color>
+    <color name="colorBackgroundHighlight">#b19bd9</color>
+    <color name="colorHighlightText">#ed1c24</color>
+    <color name="colorSpinnerBackground">#D7D7D7</color>
+    <color name="colorPrimary">#58306E</color>
+    <color name="colorPrimaryDark">#58306E</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>

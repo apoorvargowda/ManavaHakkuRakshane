@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manava Hakku Rakshane</string>+
+
+    <string name="manava_hakku_rakshane">ಮಾನವ ಹಕ್ಕುಗಳು ರಕ್ಷಣೆ</string>
+    <string name="karnataka_state_human_rights_commission">ಕರ್ನಾಟಕ ರಾಜ್ಯ ಮಾನವ ಹಕ್ಕುಗಳ ಆಯೋಗ</string>
+    <string name="log_in">ಲಾಗ್-ಇನ್</string>
+    <string name="mobile_number">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
+    <string name="login">ಲಾಗಿನ್</string>
+</resources>

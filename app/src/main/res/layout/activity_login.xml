@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_eng"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:background="@drawable/btn_lang_round_gray"
+            android:text="English"
+            android:padding="10dp"
+            android:textColor="@color/lang_btn"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_kan"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/btn_lang_round_gray"
+            android:text="ಕನ್ನಡ"
+            android:padding="10dp"
+            android:textColor="@color/lang_btn"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_hin"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:background="@drawable/btn_lang_round_gray"
+            android:text="हिंदी"
+            android:padding="10dp"
+            android:textColor="@color/lang_btn"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="171dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/karnataka_state_human_rights_commission"
+        android:textAlignment="center"
+        android:textColor="@color/lang_btn"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="292dp"
+        android:layout_height="252dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/transparent_layout"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="40dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/log_in"
+            android:textColor="@color/lang_btn"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etd_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_lang_round"
+            android:drawableLeft="@drawable/phone"
+            android:hint="@string/mobile_number"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:ems="10"
+            android:maxLength="10"
+            android:inputType="phone"
+            android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_round"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
