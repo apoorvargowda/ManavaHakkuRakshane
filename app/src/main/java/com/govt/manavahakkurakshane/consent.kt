@@ -32,9 +32,7 @@ class consent : AppCompatActivity() {
                 // Execute your submission logic here
                 startActivity(Intent(this, complaint_detail::class.java))
             } else {
-                Toast.makeText(
-                    this@consent, "Please check the consent box.", Toast.LENGTH_SHORT
-                ).show()
+                showToast("Please check the consent")
             }
         }
 
@@ -51,6 +49,9 @@ class consent : AppCompatActivity() {
         webView.settings.setSupportZoom(true)
     }
 
+    private fun showToast(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    }
 
 
 }

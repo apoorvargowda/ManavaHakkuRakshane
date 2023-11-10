@@ -52,6 +52,9 @@
     <string name="taluk">Taluk</string>
     <string name="next">next</string>
     <string name="shrc_karnataka">SHRC, KARNATAKA</string>
+    <string name="disability_if_any">Disability (if any)</string>
+    <string name="category">Category</string>
+    <string name="victim_details">Victim Details</string>
 
     <string-array name="gender">
         <item>Select Gender</item>
@@ -80,6 +83,15 @@
         <item>Self Employee</item>
         <item>Labour</item>
         <item>Others</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Select category</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+        <item>Minority</item>
+        <item>Other</item>
     </string-array>
 
 </resources>

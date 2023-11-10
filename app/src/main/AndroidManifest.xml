@@ -15,6 +15,9 @@
         android:theme="@style/Theme.ManavaHakkuRakshane"
         tools:targetApi="31">
         <activity
+            android:name=".Incident"
+            android:exported="false" />
+        <activity
             android:name=".victim"
             android:exported="false" />
         <activity

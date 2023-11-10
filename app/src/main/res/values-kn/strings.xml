@@ -38,6 +38,9 @@
     <string name="taluk">ತಾಲ್ಲೂಕು</string>
     <string name="next">ಮುಂದೆ</string>
     <string name="shrc_karnataka">SHRC, ಕರ್ನಾಟಕ</string>
+    <string name="disability_if_any">ಅಂಗವೈಕಲ್ಯ (ಯಾವುದಾದರೂ ಇದ್ದರೆ)</string>
+    <string name="category">ಜಾತಿ ವರ್ಗ</string>
+    <string name="victim_details">ಬಲಿಪಶುವಿನ ವಿವರಗಳು</string>
 
     <string-array name="gender">
         <item>ಲಿಂಗ ಆಯ್ಕೆಮಾಡಿ</item>
@@ -66,5 +69,14 @@
         <item>ಸ್ವಯಂ ಉದ್ಯೋಗಿ</item>
         <item>ಕಾರ್ಮಿಕ</item>
         <item>अन्य</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>ಜಾತಿ ವರ್ಗ ಆಯ್ಕೆ ಮಾಡಿ</item>
+        <item>ಪರಿಶಿಷ್ಟ ಜಾತಿ</item>
+        <item>ಪರಿಶಿಷ್ಟ ಪಂಗಡ</item>
+        <item>ಹಿಂದುಳಿದ ವರ್ಗಗಳು</item>
+        <item>ಅಲ್ಪಸಂಖ್ಯಾತರು</item>
+        <item>ಇತರೆ</item>
     </string-array>
 </resources>

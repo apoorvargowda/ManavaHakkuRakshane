@@ -37,6 +37,9 @@
     <string name="taluk">तालुक</string>
     <string name="next">अगले</string>
     <string name="shrc_karnataka">SHRC, कर्नाटक</string>
+    <string name="disability_if_any">विकलांगता (यदि कोई हो)</string>
+    <string name="category">जाति श्रेणी</string>
+    <string name="victim_details">पीड़ित का विवरण</string>
 
     <string-array name="gender">
         <item>लिंग का चयन करें</item>
@@ -65,5 +68,14 @@
         <item>स्व-कर्मचारी</item>
         <item>मजदूरी</item>
         <item>दूसरों</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>जाति श्रेणी का चयन करें</item>
+        <item>अनुसूचित जातियां</item>
+        <item>अनुसूचित जनजाति</item>
+        <item>पिछड़ा वर्ग</item>
+        <item>अल्पसंख्यक</item>
+        <item>अन्य</item>
     </string-array>
 </resources>
