@@ -6,4 +6,64 @@
     <string name="log_in">लॉग-इन</string>
     <string name="mobile_number">मोबाइल नंबर</string>
     <string name="login">लॉगिन</string>
+    <string name="file_new_complaint">नई शिकायत \n दर्ज करें</string>
+    <string name="view_complaints">शिकायतें देखें</string>
+    <string name="order_in_my_complaint">मेरी शिकायत \n में आदेश</string>
+    <string name="our_rights">हमारे अधिकार</string>
+    <string name="published_orders">प्रकाशित आदेश</string>
+    <string name="about_kshrc">KSHRC के बारे में</string>
+    <string name="nhrc_website">NHRC की वेबसाइट</string>
+    <string name="kshrc_website">KSHRC की वेबसाइट</string>
+    <string name="contact">संपर्क</string>
+    <string name="faq_s">अक्सर पूछे जाने \n वाले प्रश्न</string>
+    <string name="home">होम</string>
+    <string name="i_have_read_and_understood_the_above_details">मैंने उपरोक्त विवरण ों को पढ़ा और समझा है।</string>
+    <string name="submit">जमा करें</string>
+    <string name="commission">आयोग-</string>
+    <string name="complainants_mobile_number">शिकायतकर्ता का मोबाइल नंबर -</string>
+    <string name="enter_your_full_name">अपना पूरा नाम लिखें</string>
+    <string name="father_mother_name">पिता / माता का नाम</string>
+    <string name="aadhar_number">आधार संख्या</string>
+    <string name="gender">लिंग</string>
+    <string name="age">उम्र</string>
+    <string name="qualification">योग्यता </string>
+    <string name="occupation">व्यवसाय</string>
+    <string name="email_id_of_person">व्यक्ति की ईमेल आईडी</string>
+    <string name="enter_your_complete_address">अपना पूरा पता दर्ज करें</string>
+    <string name="city">शहर</string>
+    <string name="pin_code">पिन कोड</string>
+    <string name="state">राज्य</string>
+    <string name="district">जिला</string>
+    <string name="taluk">तालुक</string>
+    <string name="next">अगले</string>
+    <string name="shrc_karnataka">SHRC, कर्नाटक</string>
+
+    <string-array name="gender">
+        <item>लिंग का चयन करें</item>
+        <item>पुरुष</item>
+        <item>स्त्री</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string-array name="qualification">
+        <item>योग्यता का चयन करें</item>
+        <item>एस.एस.एल.सी</item>
+        <item>पीयू/डिप्लोमा</item>
+        <item>स्नातक</item>
+        <item>स्नातकोत्तर</item>
+        <item>डॉक्टरेट</item>
+    </string-array>
+
+    <string-array name="occupation">
+        <item>व्यवसाय का चयन करें</item>
+        <item>होम-मेकर</item>
+        <item>छात्र</item>
+        <item>कृषि</item>
+        <item>सरकारी कर्मचारी</item>
+        <item>पेशेवर कर्मचारी</item>
+        <item>निजी कर्मचारी</item>
+        <item>स्व-कर्मचारी</item>
+        <item>मजदूरी</item>
+        <item>दूसरों</item>
+    </string-array>
 </resources>

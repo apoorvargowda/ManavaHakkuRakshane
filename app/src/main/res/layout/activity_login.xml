@@ -63,7 +63,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="75dp"
         android:text="@string/karnataka_state_human_rights_commission"
         android:textAlignment="center"
         android:textColor="@color/lang_btn"

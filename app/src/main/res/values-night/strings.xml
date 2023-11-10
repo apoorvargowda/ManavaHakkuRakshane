@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Manava Hakku Rakshane</string>
     <!-- to toggle the open close button of the navigation drawer -->
@@ -36,7 +37,6 @@
     <string name="submit">submit</string>
     <string name="commission">Commission -</string>
     <string name="complainants_mobile_number">Complainants Mobile number -</string>
-    <string name="enter_your_full_name">Enter your Full Name</string>
     <string name="father_mother_name">Father/ Mother Name</string>
     <string name="aadhar_number">Aadhar Number</string>
     <string name="gender">Gender</string>
@@ -52,6 +52,7 @@
     <string name="taluk">Taluk</string>
     <string name="next">next</string>
     <string name="shrc_karnataka">SHRC, KARNATAKA</string>
+
 
     <string-array name="gender">
         <item>Select Gender</item>
@@ -81,5 +82,4 @@
         <item>Labour</item>
         <item>Others</item>
     </string-array>
-
 </resources>

@@ -19,12 +19,12 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="75dp"
+        android:text="@string/karnataka_state_human_rights_commission"
         android:textColor="@color/lang_btn"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="28sp"
-        android:text="@string/manava_hakku_rakshane" />
+        android:textSize="28sp" />
 
     <LinearLayout
         android:layout_width="292dp"

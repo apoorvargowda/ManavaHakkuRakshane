@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:ignore="HardcodedText">
 
@@ -37,6 +38,8 @@
                     android:id="@+id/complaint"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_marginRight="15dp"
                     android:layout_weight="1"
                     android:gravity="center"
@@ -60,7 +63,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="File New \nComplaint"
+                            android:text="@string/file_new_complaint"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -74,6 +77,8 @@
                     android:id="@+id/view_complaint"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginLeft="15dp"
@@ -97,7 +102,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="View\ncomplaints"
+                            android:text="@string/view_complaints"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -107,21 +112,23 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginVertical="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/order"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
-                    android:layout_weight="1"
                     android:layout_marginRight="15dp"
-                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
                     android:gravity="center"
+                    android:orientation="vertical"
                     app:cardBackgroundColor="@color/Order_my_Complaint"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -139,7 +146,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Order in my\nComplaint"
+                            android:text="@string/order_in_my_complaint"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -148,17 +155,18 @@
                 </androidx.cardview.widget.CardView>
 
 
-
                 <androidx.cardview.widget.CardView
                     android:id="@+id/rights"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
                     android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
                     android:gravity="center"
+                    android:orientation="vertical"
                     app:cardBackgroundColor="@color/Our_Rights"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -176,7 +184,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Our Rights"
+                            android:text="@string/our_rights"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -195,6 +203,8 @@
                     android:id="@+id/Published"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_weight="1"
                     android:layout_marginRight="15dp"
                     android:orientation="vertical"
@@ -218,7 +228,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Published\n Orders"
+                            android:text="@string/published_orders"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -232,6 +242,8 @@
                     android:id="@+id/about"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginLeft="15dp"
@@ -255,7 +267,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="About KSHRC"
+                            android:text="@string/about_kshrc"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -273,6 +285,8 @@
                     android:id="@+id/nhrc"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_weight="1"
                     android:layout_marginRight="15dp"
                     android:orientation="vertical"
@@ -295,7 +309,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="NHRC WEBSITE"
+                            android:text="@string/nhrc_website"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -306,9 +320,11 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/WESITE"
+                    android:id="@+id/kshrc_web"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginLeft="15dp"
@@ -332,7 +348,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="KSHRC WEBSITE"
+                            android:text="@string/kshrc_website"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -351,6 +367,8 @@
                     android:id="@+id/contact"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_weight="1"
                     android:layout_marginRight="15dp"
                     android:orientation="vertical"
@@ -374,7 +392,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Contact"
+                            android:text="@string/contact"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"
@@ -388,6 +406,8 @@
                     android:id="@+id/faqs"
                     android:layout_width="0dp"
                     android:layout_height="119dp"
+                    android:elevation="10dp"
+                    app:cardElevation="10dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginLeft="15dp"
@@ -411,7 +431,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="FAQ’s"
+                            android:text="@string/faq_s"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="14dp"

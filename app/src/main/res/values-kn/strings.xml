@@ -7,4 +7,64 @@
     <string name="log_in">ಲಾಗ್-ಇನ್</string>
     <string name="mobile_number">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
     <string name="login">ಲಾಗಿನ್</string>
+    <string name="file_new_complaint">ಫೈಲ್ ಹೊಸ \n ಕಾಂಪ್ಲೈಂಟ್</string>
+    <string name="view_complaints">ದೂರುಗಳನ್ನು \n ವೀಕ್ಷಿಸಿ</string>
+    <string name="order_in_my_complaint">ನನ್ನ ದೂರಿನಲ್ಲಿ \n ಆದೇಶ</string>
+    <string name="our_rights">ನಮ್ಮ ಹಕ್ಕುಗಳು</string>
+    <string name="published_orders">ಪ್ರಕಟಿತ ಆದೇಶಗಳು</string>
+    <string name="about_kshrc">KSHRC ಬಗ್ಗೆ</string>
+    <string name="nhrc_website">NHRC ವೆಬ್ ಸೈಟ್</string>
+    <string name="kshrc_website">KSHRC  ವೆಬ್ ಸೈಟ್</string>
+    <string name="contact">ಸಂಪರ್ಕ</string>
+    <string name="faq_s">ಆಗಾಗ್ಗೆ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು</string>
+    <string name="home">ಹೋಮ್</string>
+    <string name="i_have_read_and_understood_the_above_details">ಮೇಲಿನ ವಿವರಗಳನ್ನು ನಾನು ಓದಿದ್ದೇನೆ ಮತ್ತು ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೇನೆ.</string>
+    <string name="submit">ಸಲ್ಲಿಸು</string>
+    <string name="commission">ಆಯೋಗ -</string>
+    <string name="complainants_mobile_number">ದೂರುದಾರರ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ -</string>
+    <string name="enter_your_full_name">ನಿಮ್ಮ ಪೂರ್ಣ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="father_mother_name">ತಂದೆ/ ತಾಯಿಯ ಹೆಸರು</string>
+    <string name="aadhar_number">ಆಧಾರ್ ಸಂಖ್ಯೆ</string>
+    <string name="gender">ಲಿಂಗ</string>
+    <string name="age">ವಯಸ್ಸು</string>
+    <string name="qualification">ಅರ್ಹತೆ</string>
+    <string name="occupation">ಉದ್ಯೋಗ</string>
+    <string name="email_id_of_person">ವ್ಯಕ್ತಿಯ ಇಮೇಲ್ ಐಡಿ</string>
+    <string name="enter_your_complete_address">ನಿಮ್ಮ ಸಂಪೂರ್ಣ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="city">ನಗರ</string>
+    <string name="pin_code">ಪಿನ್ ಕೋಡ್</string>
+    <string name="state">ರಾಜ್ಯ</string>
+    <string name="district">ಜಿಲ್ಲೆ</string>
+    <string name="taluk">ತಾಲ್ಲೂಕು</string>
+    <string name="next">ಮುಂದೆ</string>
+    <string name="shrc_karnataka">SHRC, ಕರ್ನಾಟಕ</string>
+
+    <string-array name="gender">
+        <item>ಲಿಂಗ ಆಯ್ಕೆಮಾಡಿ</item>
+        <item>ಗಂಡು</item>
+        <item>ಹೆಣ್ಣು</item>
+        <item>ಇತರ</item>
+    </string-array>
+
+    <string-array name="qualification">
+        <item>ಅರ್ಹತೆ ಆಯ್ಕೆಮಾಡಿ</item>
+        <item>ಎಸ್.ಎಸ್.ಎಲ್.ಸಿ</item>
+        <item>ಪಿಯು/ಡಿಪ್ಲೊಮಾ</item>
+        <item>ಪದವೀಧರ</item>
+        <item>ಸ್ನಾತಕೋತ್ತರ ಪದವಿ</item>
+        <item>ಡಾಕ್ಟರೇಟ್</item>
+    </string-array>
+
+    <string-array name="occupation">
+        <item>ಉದ್ಯೋಗ ಆಯ್ಕೆಮಾಡಿ</item>
+        <item>ಗೃಹಿಣಿ</item>
+        <item>ವಿದ್ಯಾರ್ಥಿ</item>
+        <item>ಕೃಷಿ</item>
+        <item>ಸರ್ಕಾರಿ ಉದ್ಯೋಗಿ</item>
+        <item>ವೃತ್ತಿಪರ ಉದ್ಯೋಗಿ</item>
+        <item>ಖಾಸಗಿ ಉದ್ಯೋಗಿ </item>
+        <item>ಸ್ವಯಂ ಉದ್ಯೋಗಿ</item>
+        <item>ಕಾರ್ಮಿಕ</item>
+        <item>अन्य</item>
+    </string-array>
 </resources>
