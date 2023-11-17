@@ -94,4 +94,9 @@
         <item>Other</item>
     </string-array>
 
+    <string-array name="disability">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
 </resources>

@@ -436,15 +436,17 @@
                 android:textSize="14sp"
                 android:textStyle="normal" />
 
-            <EditText
+            <Spinner style="@style/SpinnerTheme"
                 android:id="@+id/v_disability"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:ems="10"
+                android:entries="@array/disability"
                 android:layout_marginTop="4dp"
-                android:background="@drawable/blank_sqr_edit_text_board"
-                android:inputType="number"
-                android:maxLength="12"
-                android:padding="6dp" />
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
