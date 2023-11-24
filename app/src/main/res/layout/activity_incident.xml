@@ -87,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Incident Details"
+                android:text="@string/incident_details"
                 android:textColor="#2B0447"
                 android:paddingHorizontal="5dp"
                 android:textSize="18sp"
@@ -97,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Incident  Place"
+                android:text="@string/incident_place"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -115,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Incident Data/ Period"
+                android:text="@string/incident_data_period"
                 android:textColor="#000000"
                 android:paddingHorizontal="5dp"
                 android:textSize="14sp"
@@ -130,7 +130,7 @@
                 android:inputType="date"
                 android:textSize="16sp"
                 android:textColor="#000000"
-                android:drawableLeft="@drawable/calendar"
+                android:drawableRight="@drawable/calendar"
                 android:padding="10dp" />
 
             <LinearLayout
@@ -266,7 +266,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Facts in brief of the complaint"
+                android:text="@string/facts_in_brief_of_the_complaint"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -284,7 +284,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Email  address of the Person / Authority against whom complaints is made"
+                android:text="@string/email_address_of_the_person_authority_against_whom_complaints_is_made"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -302,7 +302,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Which Public servant/Authority is alleged to have failed to protect/ enforce human rights?"
+                android:text="@string/which_public_servant_authority_is_alleged_to_have_failed_to_protect_enforce_human_rights"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -320,7 +320,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Allegation made against public servant / Authority of which department"
+                android:text="@string/allegation_made_against_public_servant_authority_of_which_department"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -338,7 +338,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Who’s is alleged to have violated Human Rights?"
+                android:text="@string/who_s_is_alleged_to_have_violated_human_rights"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -356,7 +356,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Whether, any other case or complaint pending before the court, other authority or this/other Commission, if any, in relation to the subject matter of this  complaint"
+                android:text="@string/whether_any_other_case_or_complaint_pending_before_the_court_other_authority_or_this_other_commission_if_any_in_relation_to_the_subject_matter_of_this_complaint"
                 android:textColor="#2B0447"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -365,7 +365,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Case/Complaint Number"
+                android:text="@string/case_complaint_number"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -383,7 +383,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Dated"
+                android:text="@string/dated"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -401,7 +401,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Pending Before"
+                android:text="@string/pending_before"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -419,7 +419,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Submit incident related  documents below (if any)"
+                android:text="@string/submit_incident_related_documents_below_if_any"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:textStyle="normal" />
@@ -450,7 +450,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="#000000"
                         android:textSize="14sp"
-                        android:text="Selfie" />
+                        android:text="@string/selfie" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -471,7 +471,7 @@
                         android:textColor="#000000"
                         android:textAlignment="center"
                         android:textSize="14sp"
-                        android:text="Photo \n (less then \n 1mb)" />
+                        android:text="@string/photo_n_less_then_n_1mb" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -498,7 +498,7 @@
                         android:textColor="#000000"
                         android:textAlignment="center"
                         android:textSize="14sp"
-                        android:text="Video \n (less-then\n 10mb)" />
+                        android:text="@string/video_n_less_then_n_10mb" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -528,7 +528,7 @@
                         android:textColor="#000000"
                         android:textAlignment="center"
                         android:textSize="14sp"
-                        android:text="Document" />
+                        android:text="@string/document" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -546,7 +546,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="0dp"
                     android:textSize="14sp"
-                    android:text="Capture the e-sign" />
+                    android:text="@string/capture_the_e_sign" />
 
                 <ImageView
                     android:id="@+id/sign"
@@ -570,7 +570,7 @@
                     android:layout_height="50dp"
                     android:layout_marginVertical="20dp"
                     android:background="@drawable/btn_round"
-                    android:text="CANCEL"
+                    android:text="@string/cancel"
                     android:layout_marginRight="15dp"
                     android:textColor="#FFFFFF"
                     android:textSize="20sp"
@@ -590,20 +590,12 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/btnback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
                 app:srcCompat="@drawable/back" />
-
-            <com.github.gcacace.signaturepad.views.SignaturePad
-                android:id="@+id/signaturePad"
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_margin="24dp"
-                android:background="@drawable/bg_signature_pad"
-                app:penColor="@color/black"/>
 
         </LinearLayout>
     </ScrollView>

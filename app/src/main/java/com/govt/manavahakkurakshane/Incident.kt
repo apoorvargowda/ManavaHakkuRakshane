@@ -75,7 +75,9 @@ class Incident : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_incident)
 
-
+        findViewById<ImageView>(R.id.btnback).setOnClickListener {
+            finish()
+        }
         //---selfie----
         val capturePhoto = findViewById<ImageView>(R.id.selfie)
         capturePhoto.setOnClickListener {
@@ -163,7 +165,7 @@ class Incident : AppCompatActivity() {
             openDocumentPicker()
         }
 
-        signImage = findViewById(R.id.imageView)
+
     }
     //-----Permissions-----
     override fun onRequestPermissionsResult(requestCode: Int,

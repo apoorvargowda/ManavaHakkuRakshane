@@ -22,6 +22,21 @@
         android:theme="@style/Theme.ManavaHakkuRakshane"
         tools:targetApi="31">
         <activity
+            android:name=".contact"
+            android:exported="false" />
+        <activity
+            android:name=".Published_Orders"
+            android:exported="false" />
+        <activity
+            android:name=".about_kshrc"
+            android:exported="false" />
+        <activity
+            android:name=".our_rights"
+            android:exported="false" />
+        <activity
+            android:name=".order_complaint_one"
+            android:exported="false" />
+        <activity
             android:name=".Incident"
             android:exported="false" />
         <activity
@@ -29,6 +44,15 @@
             android:exported="false" />
         <activity
             android:name=".complaint_detail"
+            android:exported="false" />
+        <activity
+            android:name=".Order_Complaints"
+            android:exported="false" />
+        <activity
+            android:name=".view_complaint"
+            android:exported="false" />
+        <activity
+            android:name=".view_complaint_one"
             android:exported="false" />
         <activity
             android:name=".consent"

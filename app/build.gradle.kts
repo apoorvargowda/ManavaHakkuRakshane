@@ -15,6 +15,10 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        //added
+        buildFeatures {
+            viewBinding = true
+        }
     }
 
     buildTypes {
@@ -55,5 +59,8 @@ dependencies {
     //implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
     //implementation("com.github.barteksc:android-pdf-viewer:3.2.0-beta.1")
     //implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
+    implementation("com.github.gcacace:signature-pad:1.3.1")
+
+    //signature pad
     implementation("com.github.gcacace:signature-pad:1.3.1")
 }

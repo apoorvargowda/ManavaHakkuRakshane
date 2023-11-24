@@ -51,6 +51,25 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, consent::class.java))
         }
 
+        findViewById<CardView>(R.id.view_complaint).setOnClickListener {
+            startActivity(Intent(this, view_complaint::class.java))
+        }
+
+        findViewById<CardView>(R.id.order).setOnClickListener {
+            startActivity(Intent(this, Order_Complaints::class.java))
+        }
+        findViewById<CardView>(R.id.rights).setOnClickListener {
+            startActivity(Intent(this, our_rights::class.java))
+        }
+        findViewById<CardView>(R.id.about).setOnClickListener {
+            startActivity(Intent(this, about_kshrc::class.java))
+        }
+        findViewById<CardView>(R.id.Published).setOnClickListener {
+            startActivity(Intent(this, Published_Orders::class.java))
+        }
+        findViewById<CardView>(R.id.contact).setOnClickListener {
+            startActivity(Intent(this, contact::class.java))
+        }
     }
     // override the onOptionsItemSelected()
     // function to implement

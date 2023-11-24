@@ -28,4 +28,9 @@
     <color name="colorPrimary">#58306E</color>
     <color name="colorPrimaryDark">#58306E</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="view">#7E8085</color>
+    <color name="box1">#D9D9D9</color>
+    <color name="box2">#F6F6F4</color>
+    <color name="textcolor">#E20F5B</color>
+    E20F5B
 </resources>
