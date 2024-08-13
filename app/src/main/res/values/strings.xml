@@ -22,10 +22,10 @@
     <string name="mobile_number">Mobile Number</string>
     <string name="login">login</string>
     <string name="file_new_complaint">File New \nComplaint</string>
-    <string name="view_complaints">View\n complaints</string>
-    <string name="order_in_my_complaint">Order in my \n Complaint</string>
+    <string name="view_complaints">View complaints</string>
+    <string name="order_in_my_complaint">Order in my Complaint</string>
     <string name="our_rights">Our Rights</string>
-    <string name="published_orders">Published \n Orders</string>
+    <string name="published_orders">Published  Orders</string>
     <string name="about_kshrc">About KSHRC</string>
     <string name="nhrc_website">NHRC WEBSITE</string>
     <string name="kshrc_website">KSHRC WEBSITE</string>
