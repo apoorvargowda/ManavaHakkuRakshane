@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ImageView
+import android.widget.TextView
 import com.govt.manavahakkurakshane.common.PreferenceHelper
 
 class our_rights : AppCompatActivity() {
@@ -14,6 +15,7 @@ class our_rights : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_our_rights)
+        findViewById<TextView>(R.id.heading).text = getString(R.string.our_rights)
 
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()
@@ -36,7 +38,7 @@ class our_rights : AppCompatActivity() {
         // onPageFinished and override Url loading.
         ourrights.webViewClient = WebViewClient()
         // this will load the url of the website
-        ourrights.loadUrl("https://www.geeksforgeeks.org/")
+        ourrights.loadUrl("")
         // this will enable the javascript settings, it can also allow xss vulnerabilities
         ourrights.settings.javaScriptEnabled = true
         // if you want to enable zoom feature

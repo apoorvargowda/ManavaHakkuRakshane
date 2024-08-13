@@ -77,6 +77,7 @@
     <string name="attach_video_if_any_about_the_incident">ಘಟನೆಯ ಬಗ್ಗೆ ಏನಾದರೂ ವೀಡಿಯೊ ಇದ್ದರೆ ಲಗತ್ತಿಸಿ</string>
     <string name="detailed_complaint_documents_if_any_related_to_the_incident">ಘಟನೆಗೆ ಸಂಬಂಧಿಸಿದ ವಿವರವಾದ ದೂರು / ದಾಖಲೆಗಳು, ಯಾವುದಾದರೂ ಇದ್ದರೆ</string>
     <string name="signature_of_the_complaint_register">ದೂರು ರಿಜಿಸ್ಟರ್ ನ ಸಹಿ</string>
+    <string name="dashboard">Dashboard</string>
 
     <string-array name="gender">
         <item>ಲಿಂಗ ಆಯ್ಕೆಮಾಡಿ</item>

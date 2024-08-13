@@ -91,6 +91,7 @@
     <string name="attach_video_if_any_about_the_incident">Attach Video if any, about the incident</string>
     <string name="detailed_complaint_documents_if_any_related_to_the_incident">Detailed complaint /Documents , if any related to the incident</string>
     <string name="signature_of_the_complaint_register">Signature of the Complaint register</string>
+    <string name="dashboard">Dashboard</string>
 
     <string-array name="gender">
         <item>Select Gender</item>

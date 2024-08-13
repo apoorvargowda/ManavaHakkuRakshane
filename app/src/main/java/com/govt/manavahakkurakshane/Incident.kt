@@ -75,6 +75,7 @@ class Incident : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_incident)
+        findViewById<TextView>(R.id.heading).text = getString(R.string.incident_details)
 
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()

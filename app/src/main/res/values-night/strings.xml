@@ -54,6 +54,7 @@
     <string name="shrc_karnataka">SHRC, KARNATAKA</string>
     <string name="disability_if_any">Disability (if any)</string>
     <string name="category">Category</string>
+    <string name="dashboard">Dashboard</string>
 
 
     <string-array name="gender">

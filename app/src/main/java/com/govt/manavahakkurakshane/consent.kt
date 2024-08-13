@@ -8,6 +8,7 @@ import android.webkit.WebViewClient
 import android.widget.Button
 import android.widget.CheckBox
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.cardview.widget.CardView
 import com.govt.manavahakkurakshane.common.PreferenceHelper
@@ -22,6 +23,7 @@ class consent : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_consent)
 
+        findViewById<TextView>(R.id.heading).text = "Consent"
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()
             finish()
@@ -55,7 +57,7 @@ class consent : AppCompatActivity() {
         // onPageFinished and override Url loading.
         webView.webViewClient = WebViewClient()
         // this will load the url of the website
-        webView.loadUrl("https://www.geeksforgeeks.org/")
+        webView.loadUrl("")
         // this will enable the javascript settings, it can also allow xss vulnerabilities
         webView.settings.javaScriptEnabled = true
         // if you want to enable zoom feature

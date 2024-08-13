@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.cardview.widget.CardView
 import com.govt.manavahakkurakshane.common.PreferenceHelper
 
@@ -12,6 +13,7 @@ class view_complaint : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_complaint)
+        findViewById<TextView>(R.id.heading).text = getString(R.string.view_complaints)
 
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()

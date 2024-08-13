@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import com.govt.manavahakkurakshane.common.PreferenceHelper
 
 class victim : AppCompatActivity() {
@@ -13,6 +14,7 @@ class victim : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_victim)
+        findViewById<TextView>(R.id.heading).text = getString(R.string.victim_details)
 
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()

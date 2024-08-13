@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.cardview.widget.CardView
 import com.govt.manavahakkurakshane.common.PreferenceHelper
 
@@ -15,7 +16,7 @@ class about_kshrc : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_kshrc)
-
+        findViewById<TextView>(R.id.heading).text = getString(R.string.about_kshrc)
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()
             finish()
@@ -37,7 +38,7 @@ class about_kshrc : AppCompatActivity() {
         // onPageFinished and override Url loading.
         abt_kshrc.webViewClient = WebViewClient()
         // this will load the url of the website
-        abt_kshrc.loadUrl("https://www.geeksforgeeks.org/")
+        abt_kshrc.loadUrl("")
         // this will enable the javascript settings, it can also allow xss vulnerabilities
         abt_kshrc.settings.javaScriptEnabled = true
         // if you want to enable zoom feature

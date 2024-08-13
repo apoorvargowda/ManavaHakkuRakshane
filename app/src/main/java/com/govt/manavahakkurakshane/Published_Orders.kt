@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ImageView
+import android.widget.TextView
 import com.govt.manavahakkurakshane.common.PreferenceHelper
 
 class Published_Orders : AppCompatActivity() {
@@ -14,6 +15,7 @@ class Published_Orders : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_published_orders)
+        findViewById<TextView>(R.id.heading).text = getString(R.string.published_orders)
 
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()
@@ -36,7 +38,7 @@ class Published_Orders : AppCompatActivity() {
         // onPageFinished and override Url loading.
         P_order.webViewClient = WebViewClient()
         // this will load the url of the website
-        P_order.loadUrl("https://www.linkedin.com/login")
+        P_order.loadUrl("")
         // this will enable the javascript settings, it can also allow xss vulnerabilities
         P_order.settings.javaScriptEnabled = true
         // if you want to enable zoom feature
