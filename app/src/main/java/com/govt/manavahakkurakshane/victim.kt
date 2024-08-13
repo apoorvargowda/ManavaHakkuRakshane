@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import com.govt.manavahakkurakshane.common.PreferenceHelper
 
 class victim : AppCompatActivity() {
     private lateinit var btnLogin: Button
@@ -13,6 +14,16 @@ class victim : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_victim)
 
+        findViewById<ImageView>(R.id.logout).setOnClickListener {
+            PreferenceHelper.defaultPrefs(this).edit().clear().apply()
+            finish()
+            val i = Intent(this, Login::class.java)
+            i.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(i)
+        }
+        findViewById<ImageView>(R.id.home).setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
         btnLogin = findViewById<Button>(R.id.btnLogin)
         btnLogin.setOnClickListener {
             startActivity(Intent(this, Incident::class.java))

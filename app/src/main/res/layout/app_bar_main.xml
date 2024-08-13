@@ -40,6 +40,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/logout"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="0.6"
@@ -54,6 +55,7 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
             <ImageView
+                android:id="@+id/home"
                 android:layout_width="35dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
@@ -72,6 +74,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/menu"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"

@@ -7,8 +7,10 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.cardview.widget.CardView
+import com.govt.manavahakkurakshane.common.PreferenceHelper
 
 class consent : AppCompatActivity() {
     private lateinit var webView: WebView
@@ -19,6 +21,17 @@ class consent : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_consent)
+
+        findViewById<ImageView>(R.id.logout).setOnClickListener {
+            PreferenceHelper.defaultPrefs(this).edit().clear().apply()
+            finish()
+            val i = Intent(this, Login::class.java)
+            i.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(i)
+        }
+        findViewById<ImageView>(R.id.home).setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
 
         consentCheckBox = findViewById(R.id.consentCheckBox)
         submitButton = findViewById(R.id.btnsubmit)

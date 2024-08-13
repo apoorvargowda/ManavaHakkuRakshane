@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +20,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        findViewById<ImageView>(R.id.logout).setOnClickListener {
+            PreferenceHelper.defaultPrefs(this).edit().clear().apply()
+            finish()
+            val i = Intent(this, Login::class.java)
+            i.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(i)
+        }
+
+        findViewById<ImageView>(R.id.home).visibility = View.GONE
         // drawer layout instance to toggle the menu icon to open
         // drawer and back button to close drawer
         drawerLayout = findViewById(R.id.drawer_layout)
@@ -69,6 +79,9 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<CardView>(R.id.contact).setOnClickListener {
             startActivity(Intent(this, contact::class.java))
+        }
+        findViewById<CardView>(R.id.faqs).setOnClickListener {
+            startActivity(Intent(this, Faq::class.java))
         }
     }
     // override the onOptionsItemSelected()

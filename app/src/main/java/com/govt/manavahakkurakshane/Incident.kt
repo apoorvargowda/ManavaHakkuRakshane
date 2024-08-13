@@ -2,6 +2,7 @@ package com.govt.manavahakkurakshane
 
 import android.Manifest
 import android.app.Activity
+import android.app.Dialog
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
@@ -74,6 +75,17 @@ class Incident : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_incident)
+
+        findViewById<ImageView>(R.id.logout).setOnClickListener {
+            PreferenceHelper.defaultPrefs(this).edit().clear().apply()
+            finish()
+            val i = Intent(this, Login::class.java)
+            i.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(i)
+        }
+        findViewById<ImageView>(R.id.home).setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
 
         findViewById<ImageView>(R.id.btnback).setOnClickListener {
             finish()
@@ -318,6 +330,54 @@ class Incident : AppCompatActivity() {
 
         val documentName = getDocumentName(uri)
         docTextView.text = "$documentName"
+    }
+
+    //-----signature dialog-----
+    fun showSignatureDialog(view: View) {
+        val dialog = Dialog(this)
+        dialog.setContentView(R.layout.dialog_signature)
+        dialog.setCancelable(false)
+
+        val signaturePadDialog: SignaturePad = dialog.findViewById(R.id.signaturePadDialog)
+        val clearButtonDialog: Button = dialog.findViewById(R.id.clearButtonDialog)
+        val okButtonDialog: Button = dialog.findViewById(R.id.okButtonDialog)
+
+        signaturePadDialog.setOnSignedListener(object : SignaturePad.OnSignedListener {
+            override fun onStartSigning() {
+                // Do something when signing starts
+            }
+
+            override fun onSigned() {
+                // Do something when a signature is completed
+            }
+
+            override fun onClear() {
+                // Do something when the pad is cleared
+            }
+        })
+
+        clearButtonDialog.setOnClickListener {
+            signaturePadDialog.clear()
+        }
+
+        okButtonDialog.setOnClickListener {
+            val signatureBitmap: Bitmap? = signaturePadDialog.signatureBitmap
+
+            if (signatureBitmap != null) {
+                // Save the signatureBitmap in a variable or perform any desired action
+                // For example, you can save it in a class-level variable
+                // Replace SignatureData with the appropriate data class or storage mechanism
+                //SignatureData.signatureBitmap = signatureBitmap
+                // Close the dialog and finish the activity
+                dialog.dismiss()
+                Toast.makeText(this, "Signature saved", Toast.LENGTH_SHORT).show()
+
+            }
+
+            dialog.dismiss()
+        }
+
+        dialog.show()
     }
 
 }

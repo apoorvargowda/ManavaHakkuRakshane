@@ -22,6 +22,12 @@
         android:theme="@style/Theme.ManavaHakkuRakshane"
         tools:targetApi="31">
         <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Faq"
+            android:exported="false" />
+        <activity
             android:name=".contact"
             android:exported="false" />
         <activity

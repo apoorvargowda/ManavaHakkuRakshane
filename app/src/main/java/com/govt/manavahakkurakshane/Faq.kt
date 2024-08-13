@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.widget.ImageView
 import com.govt.manavahakkurakshane.common.PreferenceHelper
 
-class order_complaint_one : AppCompatActivity() {
+class Faq : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_order_complaint_one)
+        setContentView(R.layout.activity_faq)
 
         findViewById<ImageView>(R.id.logout).setOnClickListener {
             PreferenceHelper.defaultPrefs(this).edit().clear().apply()
@@ -20,10 +20,6 @@ class order_complaint_one : AppCompatActivity() {
         }
         findViewById<ImageView>(R.id.home).setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
-        }
-
-        findViewById<ImageView>(R.id.btnback).setOnClickListener {
-            finish()
         }
     }
 }
